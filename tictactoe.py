@@ -71,6 +71,7 @@ def get_move(player: Player) -> Coords:
     row = input(f"{player}'s move: ").split()
     col = input(f"{player}'s move: ").split()
     return int(row), int(col)
+    #this code is way to advanced for me :-(
 
 
 def show_board(board: Board):
